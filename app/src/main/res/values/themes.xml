@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.InterfaceNetFlix" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color-->
+        <item name="colorPrimary">@color/primaria</item>"
+        <item name="colorPrimaryVariant">@color/primaria_variacao</item>"
+         <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color-->
+        <item name="colorSecondary">@color/secundaria</item>
+        <item name = "android:statusBarColor" tools:targetApi="l">@color/primaria_variacao</item>"
+        <!--Customizando interface netflix-->
+        <item name="android:windowBackground">@color/fundo</item>
+    </style>
+
+    <style name="Theme.InterfaceNetFlix" parent="Base.Theme.InterfaceNetFlix" />
+</resources>
